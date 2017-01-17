@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.author           = { 'WilliamQiu' => 'ideapods@163.com' }
   s.frameworks       = 'Foundation'
   s.source           = { :git => 'https://github.com/ideaPods/AFNetWebService.git', :tag => "#{s.version}" }
-  s.platform         = :ios, '8.0'
+  s.platform         = :ios, '7.0'
   s.source_files = 'AFNetWebService/**/*.{h,m}'
   
   # s.resource_bundles = {
