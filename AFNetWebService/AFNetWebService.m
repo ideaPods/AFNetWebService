@@ -11,6 +11,12 @@
 @implementation AFNetwebService
 
 
+// cancel task
+- (NSError *)cancelTaskWithKey:(NSString *)taskKey
+{
+    return nil;
+}
+
 - (NSString *)version;
 {
     return @"ver.0.1.01";
