@@ -10,5 +10,8 @@
 
 @interface AFNetwebService : NSObject
 
+// cancel task
+- (NSError *)cancelTaskWithKey:(NSString *)taskKey;
+
 - (NSString *)version;
 @end
